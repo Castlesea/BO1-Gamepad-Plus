@@ -1,0 +1,11 @@
+build/
+dist/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.res
+*.log
+# Game asset: not ours to redistribute
+*.ico
