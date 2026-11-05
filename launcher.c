@@ -152,7 +152,7 @@ int WINAPI wWinMain(HINSTANCE inst, HINSTANCE prev, PWSTR args, int show)
     // and a non-elevated process could neither start it nor restyle its window.
     if (!CreateProcessW(exe, cmd, NULL, NULL, FALSE, 0, NULL, dir, &si, &pi)) {
         wchar_t msg[512];
-        swprintf_s(msg, 512, L"Nao foi possivel iniciar:\n%s\n\nErro %lu.", exe, GetLastError());
+        swprintf_s(msg, 512, L"Could not start:\n%s\n\nError %lu.", exe, GetLastError());
         MessageBoxW(NULL, msg, L"BlackOps Borderless", MB_ICONERROR);
         return 1;
     }
