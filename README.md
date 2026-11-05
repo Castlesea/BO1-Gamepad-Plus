@@ -1,4 +1,4 @@
-# bo1pad
+# BO1 Gamepad Plus
 
 Melhorias de controle e janela sem bordas para **Call of Duty: Black Ops (2010)** no PC.
 
