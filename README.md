@@ -31,18 +31,6 @@ The tweaks rely on addresses in `BlackOps.exe`. If your version is different, `b
 
 The game only reads the controller in the first XInput slot.
 
-## Plutonium
-
-**Do not use the DLL with Plutonium:** it has an anti-cheat, and the DLL's addresses are for `BlackOps.exe`.
-
-To turn off aim acceleration there, use the separate script, which does nothing in games marked as online. Copy `plutonium/bo1pad.gsc` to:
-
-```
-%LOCALAPPDATA%\Plutonium\storage\t5\scripts\sp\
-```
-
-This script has not been tested in-game yet. To check it, type `aim_accel_turnrate_enabled` in the console during a match: the value should be `0`.
-
 ## Configuration
 
 Main options in `bo1pad.ini`:
