@@ -67,6 +67,10 @@ build.bat
 
 Os arquivos compilados são copiados para a pasta acima. O ícone é opcional: se existir um `blackops.ico` nesta pasta, ele entra no launcher. O ícone do jogo não faz parte do repositório.
 
+## Licença
+
+O código deste projeto está sob a [licença MIT](LICENSE). Ela não dá nenhum direito sobre o jogo.
+
 ## Aviso
 
 Projeto de fãs, sem vínculo com a Activision ou a Treyarch. Call of Duty é marca da Activision.
